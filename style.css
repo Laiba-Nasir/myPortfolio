@@ -1,0 +1,286 @@
+/*  workcited for style.css*/
+/* All deisghns are my ideas by viewing other inspriational projects  */
+/* Hover affects credits go to chatGPT */
+/* https://chatgpt.com/?oai-dm=1 */
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    background-color: black; /* Set your desired background color */
+}
+
+.topbar ul{
+    justify-content: space-around;
+    font-family: "Helvetica", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 27px;
+    padding: 10px;
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(114, 166, 235);
+    border-style: solid ;
+    border-color: greenyellow;
+    border-width: 5px;
+    
+}
+
+.topbar ul li{
+    display: flex;
+    padding: 30px;
+    color: rgb(0, 0, 255);
+   
+}
+
+.myPhotoSection {
+    width: 20%; 
+    height: 45vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px;  
+    
+}
+
+.aboutMe{
+    display: flex; 
+    flex-direction: column;
+    float: right;
+    width: 75%;
+    height: 20%;
+    background-color: rgb(125, 172, 234);
+    border-style: solid ;
+    border-color: greenyellow;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-width: 2.5px;
+}
+
+
+.myImg{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    border-radius: 50%;
+    width: 180px; 
+    height: 217px; 
+    top: 50px; 
+}
+
+
+.underPhoto p {
+    margin: 10px; /* Remove default margins to ensure lines are stacked closely */
+}
+
+.Experience{
+    background-color: lightblue;
+    list-style:square;
+    background-color: rgb(125, 172, 234);
+    border-style: solid ;
+    border-color: greenyellow;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-width: 2.5px;
+}
+
+.hobbies {
+    background-color: lightblue;
+    list-style:square;
+    background-color: rgb(125, 172, 234);
+    border-style: solid ;
+    border-color: greenyellow;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    border-width: 2.5px;
+}
+
+.hobbies-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0; /* Remove default padding from the ul */
+}
+
+.hobbies-list li {
+    width: 48%; /* Adjust width as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    list-style: none; /* Remove default list style */
+}
+
+
+.Projects{
+    background-color: palevioletred;
+    background-color: rgb(125, 172, 234);
+    border-style: solid ;
+    border-color: greenyellow;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-width: 2px;
+    
+}
+
+
+
+.Awards{
+    background-color: rgb(125, 172, 234);
+    border-style: solid ;
+    border-color: greenyellow;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-width: 2.5px;
+    
+}
+
+.Awards ul li{
+    list-style: none;
+}
+
+.Contact{
+    background-color: rgb(125, 172, 234);
+    border-style: solid ;
+    border-color: greenyellow;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    border-width: 3px;
+    
+}
+
+.project-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    background-color: rgb(125, 172, 234);
+    color: blue;
+    
+}
+
+.ContactForm{
+    background-color: rgb(125, 172, 234);
+    border-style: solid ;
+    border-color: greenyellow;
+    color: black;
+    font-family: "Helvetica", sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border-width: 3px;
+}
+
+/*
+.ContactForm .form-group input[type="text"],
+.ContactForm .form-group input[type="email"],
+.ContactForm .form-group input[type="number"]
+.ContactForm .form-group textarea{
+    width: 100%;
+}
+*/
+.ContactForm .form-group input[type="text"],
+.ContactForm .form-group input[type="email"],
+.ContactForm .form-group input[type="number"],
+.ContactForm .form-group textarea {
+    width: 30%; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#formID #msg_form_ID textarea{
+    height: 180px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#formID #formButtonID {
+    /* Your button styles here */
+    background-color: darkblue; /* Green background */
+    color: white; /* White text */
+    padding: 10px 30px; /* Padding around text */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 20px; /* Font size */
+}
+
+#formID #formButtonID:hover {
+    /* Styles for hover effect */
+    background-color: #45a049; /* Darker green background on hover */
+    
+}
+
+
+
+
+/*-------------------------------
+
+#formID #formAttributes{
+    display: flex;
+    flex-direction: column;
+}
+
+*/
+
+.project-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover .project-image {
+    transform: scale(1.1);
+}
+
+.project-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 255, 0, 0); /* Initial background color (transparent green) */
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease, background-color 0.3s ease; /* Add background-color transition */
+    opacity: 0;
+}
+
+.project-link:hover .project-title {
+    opacity: 1;
+    background-color: rgba(0, 255, 0, 0.5); /* Light green background color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
